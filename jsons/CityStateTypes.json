@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Wildhunt-type",
+        "friendBonusUniques": [
+            "[+2 Culture] [in all cities] <before the [Medieval era]>",
+            "[+4 Culture] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+8 Culture] [in all cities] <starting from the [Industrial era]>",
+		"Free Great Person <upon entering a Golden Age>"
+        ],
+        "allyBonusUniques": [
+            "[+3 Culture] [in all cities] <before the [Medieval era]>",
+            "[+6 Culture] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+12 Culture] [in all cities] <starting from the [Industrial era]>",
+		"Free Great Person <upon entering a Golden Age>",
+		"Free Social Policy <upon entering a Golden Age>"
+        ]
+  },
+	  {
+    "name": "Odyssey-type",
+        "friendBonusUniques": [
+            "[+2 Gold] [in all cities] <before the [Medieval era]>",
+            "[+4 Gold] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+8 Culture] [in all cities] <starting from the [Industrial era]>",
+		"[+1 Culture, +1 Gold, +1 Production] from every [Fishing Boats]"
+        ],
+        "allyBonusUniques": [
+            "[+3 Gold] [in all cities] <before the [Medieval era]>",
+            "[+6 Gold] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+12 Gold] [in all cities] <starting from the [Industrial era]>",
+		"[+2 Culture, +2 Gold, +2 Production] from every [Fishing Boats]",
+		"[+3 Production, +3 Science] [in all coastal cities]"
+        ]
+  },
+	  {
+    "name": "Olympian-type",
+        "friendBonusUniques": [
+            "[+2 Happiness] [in all cities] <before the [Medieval era]>",
+            "[+4 Happiness] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+8 Happiness] [in all cities] <starting from the [Industrial era]>",
+		"[+1 Happiness] from every [Colosseum]"
+        ],
+        "allyBonusUniques": [
+            "[+3 Happiness] [in all cities] <before the [Medieval era]>",
+            "[+6 Happiness] [in all cities] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+12 Happiness] [in all cities] <starting from the [Industrial era]>",
+		"[+2 Happiness] from every [Colosseum]",
+		"[+25]% XP gained from combat"
+        ]
+  }
+]

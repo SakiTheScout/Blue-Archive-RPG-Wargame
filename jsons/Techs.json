@@ -1,0 +1,121 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Ancient era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+      {
+        "name": "Halo Genesis",
+        "row": 11,
+        "quote": "'Where all miracles begin.'"
+      }
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Classical era",
+		"techCost": 105,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+      {
+        "name": "Early Schooling",
+        "row": 11,
+        "prerequisites": ["Halo Genesis", "Writing"],
+        "uniques": ["[+1 Science] [in all cities]"]
+      }
+	      ]
+      },
+	{
+		"columnNumber": 4,
+		"era": "Classical era",
+		"techCost": 175,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+      {
+        "name": "School Organisation",
+        "row": 11,
+        "prerequisites": ["Early Schooling", "Mathematics"]
+      }
+	      ]
+      },
+	{
+		"columnNumber": 6,
+		"era": "Medieval era",
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
+      {
+        "name": "High Schools",
+        "row": 11,
+        "prerequisites": ["Civil Service", "School Organisation"],
+        "uniques": ["[+15]% XP gained from combat"]
+      }
+	      ]
+      },
+	{
+                "columnNumber": 8,
+		"era": "Renaissance era",
+		"techCost": 1150,
+		"buildingCost": 250,
+		"wonderCost": 625,
+		"techs": [
+			{
+				"name": "Festivals",
+				"row": 11,
+				"prerequisites": ["Acoustics", "High Schools"]
+				"uniques": ["[+2 Culture] [in all cities]"]
+			}
+		]
+	},
+      {
+		"columnNumber": 9,
+		"era": "Industrial era",
+		"techCost": 1600,
+		"buildingCost": 300,
+		"wonderCost": 750,
+		"techs": [
+      {
+        "name": "School Logistics I",
+        "row": 11,
+        "prerequisites": ["Festivals"],
+        "uniques": ["[+1 Science] [in all cities]"]
+      }
+	      ]
+      },
+	{
+		"columnNumber": 13,
+		"era": "Atomic era",
+		"techCost": 5100,
+		"buildingCost": 500,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "School Logistics II",
+				"row": 11,
+				"prerequisites": ["School Logistics I", "Electricity"]
+			}
+		]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Future era",
+		"techCost": 9500,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Future Tech",
+				"row": 5,
+				"prerequisites": ["Globalization","Particle Physics","Nuclear Fusion","Nanotechnology","Stealth"],
+				"uniques": ["Can be continually researched", "[+10]% Strength"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush",
+                "civilopediaText": [{"text": "Who knows what the future holds?"}]
+			}
+		]
+	}
+]
