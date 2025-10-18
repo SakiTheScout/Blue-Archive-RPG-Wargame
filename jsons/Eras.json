@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Kivotos Era",
+    "startingSettlerCount": 1,
+    "startingSettlerUnit": "Founder",
+    "startingMilitaryUnitCount": 0,
+    "startingMilitaryUnit": "Founder",
+    "baseUnitBuyCost": 0,
+    "embarkDefense": 1,
+  }
+]
