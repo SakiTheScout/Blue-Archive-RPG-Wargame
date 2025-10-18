@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Normal",
+    "modifier": 1,
+    "peaceDealDuration": 0,
+    "dealDuration": 0,
+    "startYear": 2045,
+    "turns":[
+      "yearsPerTurn": 0.000002
+    ]
+  }
+]
