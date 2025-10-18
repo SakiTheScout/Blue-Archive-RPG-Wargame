@@ -2,8 +2,8 @@
   {
     "name": "Normal",
     "modifier": 1,
-    "peaceDealDuration": 0,
-    "dealDuration": 0,
+    "peaceDealDuration": 1,
+    "dealDuration": 1,
     "startYear": 2045,
     "turns":[{"yearsPerTurn":  0.1, "untilTurn":  10000000}]
   }
