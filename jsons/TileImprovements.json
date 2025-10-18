@@ -1,0 +1,10 @@
+[
+  {
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
+        "civilopediaText": [
+			{"text":"The base of operations."}
+		]
+	}
+]
