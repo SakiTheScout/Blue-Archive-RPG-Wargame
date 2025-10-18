@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Endless Policies",
+    "era": "Kivotos era",
+    "uniques": [
+      "Comment [Nothing.]"
+    ],
+    "policies":[
+      {
+        "name": "Endless Policty",
+        "row": 3,
+        "column": 3,
+        "uniques":[
+          "Comment [Nothing.]"
+        ]
+      },
+      {
+        "name": "Endless Policies complete",
+        "unique": [
+          "Comment [Nothing.]"
+        ]
+      }
+    ]
+  }
+]
