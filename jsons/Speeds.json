@@ -5,6 +5,6 @@
     "peaceDealDuration": 0,
     "dealDuration": 0,
     "startYear": 2045,
-    "turns":["yearsPerTurn":  0.1, "untilTurn":  10000000]
+    "turns":[{"yearsPerTurn":  0.1, "untilTurn":  10000000}]
   }
 ]
