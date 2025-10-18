@@ -1,0 +1,19 @@
+[
+  {
+    "columnNumber":1,
+    "era": "Kivotos era",
+    "techCost": 0,
+    "buildingCost": 1,
+    "wonderCost": 1,
+    "techs": [
+      {
+        "name": "Endless Tech",
+        "row": 1,
+        "cost": 100,
+        "uniques": [
+          "Can be continually researched",
+          "Cannot be hurried"
+        ]
+      }
+  }
+]
