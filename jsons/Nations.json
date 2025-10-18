@@ -3,14 +3,14 @@
     "name": "testA",
     "leaderName": "A",
     "innerColor": [200,50,70],
-    "outerColor" [0,50,100],
+    "outerColor": [0,50,100],
     "cities": ["A"]
   },
   {
     "name": "testB",
     "leaderName": "B",
     "innerColor": [60,185,80],
-    "outerColor" [0,30,255],
+    "outerColor": [0,30,255],
     "cities": ["B"]
   }
 ]
