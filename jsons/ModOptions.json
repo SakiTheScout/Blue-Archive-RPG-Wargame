@@ -1,9 +1,27 @@
 {
 	"modUrl": "https://github.com/SakiTheScout/Blue-Archive-RPG-Wargame",
 	"author": "SakiTheScout",
+	"isBaseRuleset": true,
+	
 	"constants": {
-		"maxXPfromBarbarians": 0
-	},
-	"uniques": [
-	]
+		"maxXPfromBarbarians": 0,
+		"cityStrengthBase": 0.0,
+	"cityStrengthPerPop": 0.0,
+	"cityStrengthFromTechsMultiplier": 0.0,
+	"cityStrengthFromTechsExponent": 0.0,
+	"cityStrengthFromTechsFullMultiplier": 0.0,
+	"cityStrengthFromGarrison": 0.0,
+	"baseCityBombardRange": 0,
+	"cityWorkRange": 0,
+	"cityExpandRange": 0,
+	"cityAirUnitCapacity": 10,
+	"unitSupplyPerPopulation": 100,
+	"minimalCityDistance": 5,
+	"minimalCityDistanceOnDifferentContinents": 5,
+	"unitUpgradeCost": 0,
+	"religionLimitBase": 0,
+	"religionLimitMultiplier": 0,
+	"minimumWarDuration": 1000000,
+	"baseTurnsUntilRevolt": 0,
+	}
 }
