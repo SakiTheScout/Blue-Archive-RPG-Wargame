@@ -1,0 +1,11 @@
+[
+  {
+    {
+        "name": "Conquest",
+        "victoryScreenHeader": "Destroy all enemy camps to win!",
+        "milestones": ["Capture all capitals"],
+        "victoryString": "You have successfully managed to drive other claimants from this area. It is time to move on!",
+        "defeatString": "We have lost our foothold in this area. It is a minor setback..."
+    },
+  }
+]
