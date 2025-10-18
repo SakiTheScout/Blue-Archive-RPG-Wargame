@@ -4,13 +4,21 @@
     "leaderName": "A",
     "innerColor": [200,50,70],
     "outerColor": [0,50,100],
-    "cities": ["A"]
+    "cities": ["A"],
+    "uniqueName": "AA",
+    "uniques": [
+      "Comment [A]"
+    ]
   },
   {
     "name": "testB",
     "leaderName": "B",
     "innerColor": [60,185,80],
     "outerColor": [0,30,255],
-    "cities": ["B"]
+    "cities": ["B"],
+    "uniqueName": "BB",
+    "uniques": [
+      "Comment [B]"
+    ]
   }
 ]
