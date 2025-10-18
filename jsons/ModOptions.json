@@ -4,8 +4,8 @@
 	"isBaseRuleset": true,
 	
 	"constants": {
-		"maxXPfromBarbarians": 0,
-		"cityStrengthBase": 0.0,
+	"maxXPfromBarbarians": 0,
+	"cityStrengthBase": 0.0,
 	"cityStrengthPerPop": 0.0,
 	"cityStrengthFromTechsMultiplier": 0.0,
 	"cityStrengthFromTechsExponent": 0.0,
@@ -18,7 +18,13 @@
 	"unitSupplyPerPopulation": 100,
 	"minimalCityDistance": 5,
 	"minimalCityDistanceOnDifferentContinents": 5,
-	"unitUpgradeCost": 0,
+	"unitUpgradeCost":{
+		"base": 0,
+		"perProduction": 0,
+		"eraMultiplier": 0,
+		"exponent": 1,
+		"roundTo": 5,
+	},
 	"religionLimitBase": 0,
 	"religionLimitMultiplier": 0,
 	"minimumWarDuration": 1000000,
