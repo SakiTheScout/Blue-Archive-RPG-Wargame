@@ -2,7 +2,6 @@
   {
     "name": "Flat",
     "type": "Land",
-    "culture": 1,
     "RGB": [200,200,200]
   },
   {
@@ -33,5 +32,10 @@
 			"Vegetation",
 			"[+3] to Fertility for Map Generation"
 		]
-	}
+	},
+	{
+    "name": "Shallow",
+    "type": "Water",
+    "RGB": [0,50,230]
+  }
 ]
