@@ -1,5 +1,10 @@
 [
   {
+		"name": "Spectator",
+		"outerColor": [255,255,255]
+	  "innerColor": [0,0,0]
+	},
+  {
     "name": "testA",
     "leaderName": "A",
     "innerColor": [200,50,70],
