@@ -1,8 +1,4 @@
-[
-  {
-    "name": "GlobalUniques",
-    "uniques": [
+{"name": "GlobalUniques","uniques": [
       "Comment [Nothing.]"
-    ]
-  }
-]
+  ]
+}
