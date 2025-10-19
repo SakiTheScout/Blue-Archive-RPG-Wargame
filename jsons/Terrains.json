@@ -45,7 +45,7 @@
     "defenceBonus": 0.10,
 	  "RGB": [0,230,50],
   "occursOn": [
-			"Flat"
+			"Plains"
 		],
   "uniques": [
 			"Vegetation",
@@ -59,7 +59,7 @@
 		"defenceBonus": -0.05,
     "RGB": [150,100,50]
 		"occursOn": [
-			"Flat",
+			"Plains",
 			"Street"
 		],
 		"uniques": [
