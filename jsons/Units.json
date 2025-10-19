@@ -5,6 +5,9 @@
     "cost": 1,
     "movement": 1,
     "strength": 1,
-    "uniques": ["Founds a new city <by consuming this unit>"]
+    "uniques": [
+      "Founds a new city <by consuming this unit>",
+      "Unavailable",
+    ]
   }
 ]
