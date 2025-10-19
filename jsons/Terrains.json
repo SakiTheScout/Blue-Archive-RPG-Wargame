@@ -11,6 +11,8 @@
 		"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
 		"Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
 		"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.9] and [1]",
+		"Becomes [Small Hill] when adjacent to [Medium Hill]",
+		"Becomes [Medium Hill] when adjacent to [Large Hill]",
 		
 		"A Region is formed with at least [30]% [Plains] tiles, with priority [5]",
 		"Considered [Desirable] when determining start locations",
@@ -32,6 +34,8 @@
 			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [1]",
 			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [1]",
 			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
+			"Becomes [Small Hill] when adjacent to [Medium Hill]",
+		    "Becomes [Medium Hill] when adjacent to [Large Hill]",
 			
 			"[-2] to Fertility for Map Generation",
 			"A Region is formed with at least [40]% [Street] tiles, with priority [7]",
@@ -52,6 +56,8 @@
 			"Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
 			"Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
 			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
+			"Becomes [Small Hill] when adjacent to [Medium Hill]",
+		    "Becomes [Medium Hill] when adjacent to [Large Hill]",
 			
 			"[+1] to Fertility for Map Generation",
 			"A Region is formed with at least [5]% [Desert] tiles, with priority [3]",
@@ -104,6 +110,7 @@
 		],
 		"uniques": [
 			"Rough terrain",
+			"Doesn't generate naturally",
 			"[+1] Strength for cities built on this terrain",
 			"Has an elevation of [1] for visibility calculations",
 			"Occurs in groups around high elevations",
@@ -130,6 +137,7 @@
 		],
 		"uniques": [
 			"Rough terrain",
+			"Doesn't generate naturally",
 			"[+2] Strength for cities built on this terrain",
 			"Has an elevation of [2] for visibility calculations",
 			"Occurs in groups around high elevations",
