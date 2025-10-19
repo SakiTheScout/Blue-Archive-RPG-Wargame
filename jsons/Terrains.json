@@ -12,26 +12,26 @@
     "defenceBonus": 0.05,
     "food": 1,
     "RGB": [0,230,50]
-  },
   "occursOn": [
 			"Flat"
 		],
   "uniques": [
 			"Vegetation",
 			"[+5] to Fertility for Map Generation"
-		],
+		]
+  },
   {
 		"name": "Mud",
 		"type": "TerrainFeature",
 		"movementCost": 3,
 		"defenceBonus": -0.05,
-    "RGB": [0,230,50]
+    "RGB": [150,100,50]
 		"occursOn": [
 			"Flat"
 		],
 		"uniques": [
 			"Vegetation",
 			"[+3] to Fertility for Map Generation"
-		],
-	},
+		]
+	}
 ]
