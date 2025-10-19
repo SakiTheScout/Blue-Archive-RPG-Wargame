@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Basic",
+    "preferredVictoryType": "Conquest",
+    "military": 10,
+    "aggressive": 10,
+    "declareWar": 10,
+    "commerce": 0,
+    "diplomacy": 0,
+    "loyal": 0,
+    "expansion": 10,
+  }
+]
