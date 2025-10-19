@@ -1,16 +1,49 @@
 [
   {
-    "name": "Flat",
+    "name": "Plains",
     "type": "Land",
-    "RGB": [200,200,200]
+	"movementCost": 1,
+	"defenceBonus": -0.1,
+    "RGB": [0,200,50],
+	"uniques": [
+		"A Region is formed with at least [30]% [Plains] tiles, with priority [5]",
+		"A Region can not contain more [Plains] tiles than [Street] tiles"
+	]
   },
+  {
+		"name": "Street",
+		"type": "Land",
+		"movementCost": 1,
+	    "defenceBonus": 0.05,
+		"RGB": [200,200,200],
+		"uniques": [
+			"[-2] to Fertility for Map Generation",
+			"A Region is formed with at least [40]% [Street] tiles, with priority [7]",
+			"A Region can not contain more [Plains] tiles than [Street] tiles",
+			"Considered [Desirable] when determining start locations",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{
+		"name": "Desert",
+		"type": "Land",
+		"movementCost": 1,
+		"defenceBonus": -0.1,
+		"RGB": [255,240,195],
+		"uniques": [
+			"[+1] to Fertility for Map Generation",
+			"A Region is formed with at least [5]% [Desert] tiles, with priority [3]",
+			"A Region can not contain more [Desert] tiles than [Plains] tiles",
+			"Considered [Desirable] when determining start locations",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
   {
     "name": "Grass",
     "type": "TerrainFeature",
     "movementCost": 2,
-    "defenceBonus": 0.05,
-    "food": 1,
-    "RGB": [0,230,50]
+    "defenceBonus": 0.10,
+	  "RGB": [0,230,50],
   "occursOn": [
 			"Flat"
 		],
@@ -26,7 +59,8 @@
 		"defenceBonus": -0.05,
     "RGB": [150,100,50]
 		"occursOn": [
-			"Flat"
+			"Flat",
+			"Street"
 		],
 		"uniques": [
 			"Vegetation",
@@ -34,8 +68,74 @@
 		]
 	},
 	{
-    "name": "Shallow",
-    "type": "Water",
-    "RGB": [0,50,230]
-  }
+		"name": "Small Hill",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"overrideStats": true,
+		"defenceBonus": 0.25,
+		"RGB": [100,125,70],
+		"occursOn": [
+			"Street",
+			"Plains"
+		],
+		"uniques": [
+			"Rough terrain",
+			"[+1] Strength for cities built on this terrain",
+			"Has an elevation of [1] for visibility calculations",
+			"Occurs in groups around high elevations",
+			"[-1] to Fertility for Map Generation",
+			"A Region is formed with at least [25]% [Small Hill] tiles, with priority [5]",
+			"Base Terrain on this tile is not counted for Region determination",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [30] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{
+		"name": "Medium Hill",
+		"type": "TerrainFeature",
+		"movementCost": 3,
+		"overrideStats": true,
+		"defenceBonus": 0.50,
+		"RGB": [80,100,50],
+		"occursOn": [
+			"Street",
+			"Plains"
+		],
+		"uniques": [
+			"Rough terrain",
+			"[+2] Strength for cities built on this terrain",
+			"Has an elevation of [2] for visibility calculations",
+			"Occurs in groups around high elevations",
+			"[-2] to Fertility for Map Generation",
+			"A Region is formed with at least [20]% [Medium Hill] tiles, with priority [5]",
+			"Base Terrain on this tile is not counted for Region determination",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [20] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{
+		"name": "Large Hill",
+		"type": "TerrainFeature",
+		"movementCost": 4,
+		"overrideStats": true,
+		"defenceBonus": 0.75,
+		"RGB": [60,80,40],
+		"occursOn": [
+			"Street",
+			"Plains"
+		],
+		"uniques": [
+			"Rough terrain",
+			"[+3] Strength for cities built on this terrain",
+			"Has an elevation of [3] for visibility calculations",
+			"[-3] to Fertility for Map Generation",
+			"A Region is formed with at least [10]% [Large Hill] tiles, with priority [5]",
+			"Base Terrain on this tile is not counted for Region determination",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [6] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	}
 ]
