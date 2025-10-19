@@ -141,16 +141,12 @@
 	},
 	{
 		"name": "Large Hill",
-		"type": "TerrainFeature",
+		"type": "Land",
 		"movementCost": 4,
 		"production": 3,
 		"overrideStats": true,
 		"defenceBonus": 0.75,
 		"RGB": [60,80,40],
-		"occursOn": [
-			"Street",
-			"Plains"
-		],
 		"uniques": [
 			"Rough terrain",
 			"[+3] Strength for cities built on this terrain",
