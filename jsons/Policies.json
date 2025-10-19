@@ -7,7 +7,7 @@
     ],
     "policies":[
       {
-        "name": "Endless Policty",
+        "name": "Endless Policy",
         "row": 3,
         "column": 3,
         "uniques":[
@@ -15,7 +15,7 @@
         ]
       },
       {
-        "name": "Endless Policties Complete",
+        "name": "Endless Policies Complete",
         "uniques":[
           "Comment [Nothing.]"
         ]
