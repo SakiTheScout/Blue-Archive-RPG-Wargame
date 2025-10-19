@@ -4,5 +4,11 @@
     "type": "Land",
     "food": 1,
     "RGB": [200,200,200]
+  },
+  {
+    "name": "Grass",
+    "type": "Land",
+    "food": 2,
+    "RGB": [0,230,50]
   }
 ]
