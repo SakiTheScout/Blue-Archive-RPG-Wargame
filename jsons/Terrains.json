@@ -141,7 +141,6 @@
 		"defenceBonus": 0.50,
 		"RGB": [80,100,50],
 		"occursOn": [
-			"Street",
 			"Plains",
 			"Desert"
 		],
@@ -166,7 +165,6 @@
 		"defenceBonus": 0.75,
 		"RGB": [60,80,40],
 		"occursOn": [
-			"Street",
 			"Plains",
 			"Desert"
 		],
