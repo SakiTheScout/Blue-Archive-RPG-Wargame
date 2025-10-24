@@ -137,7 +137,7 @@
 			"[+2] Strength for cities built on this terrain",
 			"Has an elevation of [2] for visibility calculations",
 			"Base Terrain on this tile is not counted for Region determination",
-			"Neighboring tiles will convert to [Small Hill] <with [70]% chance>",
+			"Neighboring tiles will convert to [Small Hill] <with [30]% chance>",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
 			"Every [20] tiles with this terrain will receive a major deposit of a strategic resource."
@@ -161,8 +161,8 @@
 			"[+3] Strength for cities built on this terrain",
 			"Has an elevation of [3] for visibility calculations",
 			"Base Terrain on this tile is not counted for Region determination",
-			"Neighboring tiles will convert to [Small Hill] <with [20]% chance>",
-			"Neighboring tiles will convert to [Medium Hill] <with [50]% chance>",
+			"Neighboring tiles will convert to [Small Hill] <with [10]% chance>",
+			"Neighboring tiles will convert to [Medium Hill] <with [30]% chance>",
 			"Considered [Desirable] when determining start locations",
 			"Occurs in chains at high elevations",
 			"Considered [Production] when determining start locations",
@@ -179,9 +179,9 @@
 			"Rough terrain",
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in chains at high elevations",
-			"Neighboring tiles will convert to [Large Hill] <with [60]% chance>",
-			"Neighboring tiles will convert to [Medium Hill] <with [20]% chance>",
-			"Neighboring tiles will convert to [Small Hill] <with [10]% chance>",
+			"Neighboring tiles will convert to [Large Hill] <with [50]% chance>",
+			"Neighboring tiles will convert to [Medium Hill] <with [10]% chance>",
+			"Neighboring tiles will convert to [Small Hill] <with [5]% chance>",
 			"Always Fertility [+4] for Map Generation",
 			"Considered [Desirable] when determining start locations"
 		]
