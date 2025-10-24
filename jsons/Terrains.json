@@ -250,8 +250,8 @@
 			"A Region is formed with at least [80]% [Broken House] tiles, with priority [5]",
 			"A Region is formed with at least [75]% [Broken House] tiles and [House] tiles, with priority [5]",
 			"A Region can not contain more [House] tiles than [Broken House] tiles",
-			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
-			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
+			"Considered [Food] when determining start locations <in all except [Plains] Regions>",
+			"Considered [Desirable] when determining start locations <in all except [Plains] Regions>",
 			"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
 	}
