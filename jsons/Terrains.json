@@ -211,7 +211,7 @@
 		"defenceBonus": 0.25,
 		"occursOn": [
 	        "Street",
-			"Hill"],
+			"Small Hill"],
 		"uniques": [
 			"Rough terrain",
 			"Vegetation",
@@ -241,7 +241,7 @@
 		"defenceBonus": 0.25,
 		"occursOn": [
 			"Street",
-			"Hill"],
+			"Small Hill"],
 		"uniques": [
 			"Rough terrain",
 			"Vegetation",
