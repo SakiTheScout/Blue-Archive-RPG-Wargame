@@ -113,7 +113,6 @@
 			"Doesn't generate naturally",
 			"[+1] Strength for cities built on this terrain",
 			"Has an elevation of [1] for visibility calculations",
-			"Occurs in groups around high elevations",
 			"Base Terrain on this tile is not counted for Region determination",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
@@ -138,7 +137,7 @@
 			"[+2] Strength for cities built on this terrain",
 			"Has an elevation of [2] for visibility calculations",
 			"Base Terrain on this tile is not counted for Region determination",
-			"Occurs in groups around high elevations",
+			"Neighboring tiles will convert to [Small Hill] <with [70]% chance>",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
 			"Every [20] tiles with this terrain will receive a major deposit of a strategic resource."
@@ -161,10 +160,11 @@
 			"Rough terrain",
 			"[+3] Strength for cities built on this terrain",
 			"Has an elevation of [3] for visibility calculations",
-			"A Region is formed with at least [25]% [Large Hill] tiles, with priority [5]",
 			"Base Terrain on this tile is not counted for Region determination",
+			"Neighboring tiles will convert to [Small Hill] <with [20]% chance>",
+			"Neighboring tiles will convert to [Medium Hill] <with [50]% chance>",
 			"Considered [Desirable] when determining start locations",
-			"Occurs in groups around high elevations",
+			"Occurs in chains at high elevations",
 			"Considered [Production] when determining start locations",
 			"Every [6] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
@@ -179,6 +179,9 @@
 			"Rough terrain",
 			"Has an elevation of [4] for visibility calculations",
 			"Occurs in chains at high elevations",
+			"Neighboring tiles will convert to [Large Hill] <with [60]% chance>",
+			"Neighboring tiles will convert to [Medium Hill] <with [20]% chance>",
+			"Neighboring tiles will convert to [Small Hill] <with [10]% chance>",
 			"Always Fertility [+4] for Map Generation",
 			"Considered [Desirable] when determining start locations"
 		]
