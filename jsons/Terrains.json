@@ -103,11 +103,17 @@
 		"overrideStats": true,
 		"defenceBonus": 0.25,
 		"RGB": [100,125,70],
+		"occursOn": [
+			"Street",
+			"Plains",
+			"Desert"
+		],
 		"uniques": [
 			"Rough terrain",
 			"Doesn't generate naturally",
 			"[+1] Strength for cities built on this terrain",
 			"Has an elevation of [1] for visibility calculations",
+			"Occurs in groups around high elevations",
 			"Base Terrain on this tile is not counted for Region determination",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
@@ -122,11 +128,17 @@
 		"overrideStats": true,
 		"defenceBonus": 0.50,
 		"RGB": [80,100,50],
+		"occursOn": [
+			"Street",
+			"Plains",
+			"Desert"
+		],
 		"uniques": [
 			"Rough terrain",
 			"[+2] Strength for cities built on this terrain",
 			"Has an elevation of [2] for visibility calculations",
 			"Base Terrain on this tile is not counted for Region determination",
+			"Occurs in groups around high elevations",
 			"Considered [Desirable] when determining start locations",
 			"Considered [Production] when determining start locations",
 			"Every [20] tiles with this terrain will receive a major deposit of a strategic resource."
@@ -149,12 +161,26 @@
 			"Rough terrain",
 			"[+3] Strength for cities built on this terrain",
 			"Has an elevation of [3] for visibility calculations",
-			"Neighboring tiles will convert to [Medium Hill] <with [75]% chance>",
 			"A Region is formed with at least [25]% [Large Hill] tiles, with priority [5]",
 			"Base Terrain on this tile is not counted for Region determination",
 			"Considered [Desirable] when determining start locations",
+			"Occurs in groups around high elevations",
 			"Considered [Production] when determining start locations",
 			"Every [6] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{
+		"name": "Mountain",
+		"type": "Land",
+		"impassable": true,
+		"defenceBonus": 100.0,
+		"RGB": [102,102,102],
+		"uniques": [
+			"Rough terrain",
+			"Has an elevation of [4] for visibility calculations",
+			"Occurs in chains at high elevations",
+			"Always Fertility [+4] for Map Generation",
+			"Considered [Desirable] when determining start locations"
 		]
 	}
 ]
