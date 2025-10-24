@@ -1,0 +1,14 @@
+[
+  {
+		"name": "Club's Banner",
+    "culture": 1,
+		"cost": 1,
+		"uniques": [
+      "Limited to [1] per Civilization",
+      "Indicates the capital city",
+      "Never destroyed when the city is captured",
+      "Automatically built in all cities where it is buildable",
+      "[-1000]% Culture cost of natural border growth [in this city]",
+      "Enables conversion of city production to [Culture]"
+    ]}
+]
